@@ -1,0 +1,21 @@
+/*---------------------
+TYPOGRAPHY
+ ---------------------*/
+
+
+/**-----
+Font source: https://rsms.me/inter/
+-----**/
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings:
+        "liga" 1,
+        "calt" 1; /* fix for Chrome */
+    font-weight: 300;
+    line-height: 1.5;
+}
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
+}

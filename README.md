@@ -1,2 +1,2 @@
-# semantic-html-basics
+# Grundlagen des Semantischen HTML
  
