@@ -1,3 +1,17 @@
+img {
+    width: 100%;
+}
+
+
+/*---------------------
+LAYOUT
+ ---------------------*/
+
+.flexbox {
+    display: flex;
+}
+
+
 /*---------------------
 TYPOGRAPHY
  ---------------------*/
@@ -18,4 +32,17 @@ Font source: https://rsms.me/inter/
     :root {
         font-family: InterVariable, sans-serif;
     }
+}
+
+
+
+
+/*---------------------
+COLOR
+ ---------------------*/
+
+header {
+    background: lightgrey;
+    font-weight: 500;
+    padding: 0.5em;
 }

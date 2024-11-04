@@ -9,6 +9,55 @@
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     </head>
     <body>
-        <h1>Grundlagen des semantischen HTML</h1>
+        <main>
+            <article>
+                <header>
+                    <h1>Grundlagen des semantischen HTML</h1>
+                    <p>
+                        Es gibt semantische und neutrale HTML Elemente. Ein Beispiel für ein neutrales HTML Blockelement
+                        ist DIV, ein recht ähnliches semantisches Pedant dazu wäre SECTION
+                    </p>
+                </header>
+
+                <div class="flexbox">
+                    <div>
+                        <section>
+                            <h2>Grundsätzliche Rolle von HTML</h2>
+                            <p>
+                                Grundsätzlich ist HTML dafür da, Inhalte zu strukturieren. Wenn dies mit neutralen
+                                Elementen wie DIV erfolgt, enthält die Struktur aber keine tieferen Hinweise auf ihre
+                                Inhalte.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h2>Nutzen semantischer Elemente</h2>
+                            <p>
+                                Nutzen wir hingegen semantische Elemente wie SECTION, ARTICLE, HEADER, etc., dann gibt
+                                schon die Struktur interpretierenden Programmen (dem Browser, einem Screenreader, einem
+                                Suchmaschinen Bot, etc.) Informationen, was für Inhalte wo sind.
+                            </p>
+                        </section>
+
+                        <section>
+                            <figure>
+                                <img src="assets/img/architecture-1850055_1920.jpeg" />
+                            </figure>
+                            <img src="assets/img/architecture-1850055_1920.jpeg" />
+                            <img src="assets/img/architecture-1850055_1920.jpeg" />
+                        </section>
+                    </div>
+
+                    <aside>
+                        <h3>Weiterführende Links</h3>
+                        <ul>
+                            <li>Link 1</li>
+                            <li>Link 2</li>
+                            <li>Link 3</li>
+                        </ul>
+                    </aside>
+                </div>
+            </article>
+        </main>
     </body>
 </html>
