@@ -1,11 +1,38 @@
+/*---------------------
+STYLESHEET
+Semantic HTML Basics
+Version 1.1
+ ---------------------*/
+
+
+/*---------------------
+RESET
+ ---------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 img {
     width: 100%;
+    display: block;
 }
 
 
 /*---------------------
 LAYOUT
  ---------------------*/
+
+h1,h2,h3,h4,h5,h6,p,ol,ul,figure {
+    margin-bottom: 1rem;
+}
+
+main ul,
+ol {
+    padding-left: 1em;
+}
 
 .flexbox {
     display: flex;
@@ -25,14 +52,55 @@ Font source: https://rsms.me/inter/
     font-feature-settings:
         "liga" 1,
         "calt" 1; /* fix for Chrome */
-    font-weight: 300;
     line-height: 1.5;
+    font-size: 13px;
 }
 @supports (font-variation-settings: normal) {
     :root {
         font-family: InterVariable, sans-serif;
     }
 }
+
+/**-----
+Font sizes
+-----**/
+
+h1 {
+    font-size: 3.1em;
+}
+
+h2 {
+    font-size: 2.1em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h1,h2,h3 {
+    line-height: 1;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+/**-----
+Font weights
+-----**/
+
+body {
+    font-weight: 200;
+}
+
+h1,h2,h3 {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 700;
+}
+
 
 
 
@@ -44,5 +112,4 @@ COLOR
 header {
     background: lightgrey;
     font-weight: 500;
-    padding: 0.5em;
 }
