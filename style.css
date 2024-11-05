@@ -36,6 +36,15 @@ ol {
 
 .flexbox {
     display: flex;
+    gap: 1em;
+}
+
+.flexbox aside {
+    width: 30%;
+}
+
+.flexbox>div {
+    flex: 1;
 }
 
 
